@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.header h1 {
+  text-align: center;
+}
+.header {
+  margin: 45px 0;
+}
+.header h1 {
+  font-weight: 200;
+}
+.box {
+  width: 430px;
+  background-color: #fff;
+  box-shadow: 1px 1px 7px gray;
+  margin: 0 auto;
+  padding: 15px 20px;
+}
+.stateMenu {
+  cursor: pointer;
+}
+.stateMenu {
+  display: flex;
+  justify-content: space-between;
+}
+#searchSection {
+  height: 200px;
+  overflow: auto;
+}
+.contentColor {
+  color: #ff5959;
+}
+.inputField {
+  padding: 10px 15px;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.05);
+  margin: 20px 0;
+  outline: none;
+}
+#searchSection div {
+  margin: 15px 0;
+  color: gray;
+  font-size: 20px;
+}
+.checkBox {
+  padding-right: 10px;
+}
+.checkBox input[type="checkbox"] {
+  accent-color: #ff5959;
+}
