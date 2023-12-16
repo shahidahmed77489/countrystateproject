@@ -3,6 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: normal;
+  background: #f8f9fd;
+  color: gray;
+}
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -15,13 +23,15 @@
 }
 .header h1 {
   font-weight: 200;
+  color: #000;
 }
 .box {
-  width: 430px;
+  width: 420px;
   background-color: #fff;
   box-shadow: 1px 1px 7px gray;
   margin: 0 auto;
   padding: 15px 20px;
+  border-radius: 5px;
 }
 .stateMenu {
   cursor: pointer;
@@ -56,4 +66,9 @@
 }
 .checkBox input[type="checkbox"] {
   accent-color: #ff5959;
+}
+@media only screen and (max-width: 768px) {
+  .box {
+    width: 75%;
+  }
 }
